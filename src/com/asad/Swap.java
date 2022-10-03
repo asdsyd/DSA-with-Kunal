@@ -28,7 +28,25 @@ public class Swap {
         int temp = a ;
         a = b;
         b = temp;
+        //scoping in for loops
+        for (int i = 0;i<4;i++){
+            System.out.println(i);
+            int num =10;
+            a = 1111;
+
+        }
+        int i= 12;
+        //initialised outside the block after being intialised inside the block :)
+
     }
+    //Concept of Shadowing aww
+    //smaller block scope cannot shadow extending block ;p
+
+    //VarArgs
+    //int ...v (internally taking as an array of arguments)
+
+
+
 
 }
 
