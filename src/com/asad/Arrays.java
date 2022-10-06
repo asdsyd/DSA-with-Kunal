@@ -1,5 +1,7 @@
 package com.asad;
 
+import java.util.Scanner;
+
 public class Arrays {
 
     public static void main(String[] args) {
@@ -20,7 +22,21 @@ public class Arrays {
         //internally how it works?
         //arr is in stack
         //arr will be pointing towards the heap which stores the object
-         
+
+        String arr[]= new String[5];
+        System.out.println(rnos[0]);
+        System.out.println(arr[0]);
+
+        //by default it has 0 in int array and null as value in string array.
+        /*
+        Why does it has null as the value? Lets dive into it
+        internally what happens is
+            Primitives like int,bool,char are stored in stack memory
+            but all other objects/classes in java are stored in heap memory
+
+            Each particular element in String array is an object.
+
+         */
 
 
     }
