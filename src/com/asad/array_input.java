@@ -10,9 +10,15 @@ public class array_input {
             arr[i] = in.nextInt();
         }
 
-        for(int i = 0; i < arr.length; i++){
-            System.out.println(arr[i]);
+//        for(int i = 0; i < arr.length; i++){
+//            System.out.print(arr[i] + " ");
+//        }
+
+        for (int num : arr){
+            System.out.print(num + " ");
         }
+        //Alrighty ;)
+
 
     }
 
