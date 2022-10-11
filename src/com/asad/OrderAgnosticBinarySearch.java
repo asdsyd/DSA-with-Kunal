@@ -2,8 +2,8 @@ package com.asad;
 
 public class OrderAgnosticBinarySearch {
     public static void main(String[] args) {
-        int[] arr = {-12,-11,-5,1,4,5,8,9,21,24,45};
-        int target = 24;
+        int[] arr = {99,98,91,100,111,134,83,77,44,22};
+        int target = 99;
         int ans = orderAgnosticBS(arr,target);
         System.out.println(ans);
     }
