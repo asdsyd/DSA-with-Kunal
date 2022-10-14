@@ -2,7 +2,8 @@ package com.asad;
 
 public class OrderAgnosticBinarySearch {
     public static void main(String[] args) {
-        int[] arr = {99,98,91,100,111,134,83,77,44,22};
+        // Order Agnostic BS is actually working, initial input array was not sorted properly
+        int[] arr = {134,111,100,99,98,91,83,77,44,22};
         int target = 99;
         int ans = orderAgnosticBS(arr,target);
         System.out.println(ans);
