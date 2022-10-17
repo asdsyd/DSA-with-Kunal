@@ -1,18 +1,24 @@
 package com.asad;
 
-public class CeilingProblem {
+public class FloorProblem {
     public static void main(String[] args) {
         int[] arr = {2,3,5,9,14,16,18};
-        int target = 15;
-        int ans = Ceiling(arr,target);
+        int target = 23;
+        int ans = Floor(arr,target);
         System.out.println(ans);
 
     }
     //return the index
     // return -1 if not found
 
-    //return the index of smallest no >= target
-    static int Ceiling(int[] arr,int target){
+    //return the index of largest no <= target
+    static int Floor(int[] arr,int target){
+
+        //but what if target is greater than the greatest no in array?
+        if (target> arr[arr.length - 1]){
+            return -1;
+        }
+
         int start = 0;
         int end = arr.length - 1;
 
@@ -31,7 +37,7 @@ public class CeilingProblem {
                 return mid;
             }
         }
-        return start;
+        return end;
 
     }
 }
