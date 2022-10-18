@@ -3,62 +3,40 @@ public class Leetcode34 {
     public static void main(String[] args) {
 
     }
-
-    public int[] searchRange(int[] nums, int target) {
-
-            int[] ans = {-1,-1};
-            int start = search(nums,target, findStartIndex);
-            int end = search(nums, target, findStartIndex);
-
-            ans[0] = start;
-            ans[1] = end;
-
-            int start = 0;
-            int end = nums.length - 1;
-
-            while (start <= end ) {
-
-                int mid = start + (end - start) / 2;
-
-                if (target < nums[mid]){
-                    end = mid - 1;
-                } else if (target > nums[mid]) {
-                    start = mid + 1;
-                } else {
-                    return mid;
-                }
+    public int[] searchRange(int[] arr, int t) {
+        int l = 0, h = arr.length - 1;
+        int fp = -1, lp = -1;
+         int a[] ={-1,-1};
+        while (l <= h) {
+            int mid = l + (h - l) / 2;
+            if (arr[mid] == t) {
+                fp = mid;
+                h = mid - 1;
+            } else if (arr[mid] > t) {
+                h = mid - 1;
+            } else {
+                l = mid + 1;
             }
-            return ans;
-
-
-
-    }
-    int[] search(int[] nums, int target, boolean findStartIndex){
-            int ans = -1;
-            int start = 0;
-            int end = nums.length - 1;
-
-            while (start <= end){
-
-                int mid = start + (end - start) / 2;
-
-                if (target < nums[mid]){
-                    end = mid - 1;
-                } else if (target > nums[mid]) {
-                    start = mid + 1;
-                } else {
-                    ans = mid;
-                    if(findStartIndex){
-                        end = mid - 1;
-                } else {
-                        start = mid - 1;
-                    }
-            }
-            return ans;
-
-
-
         }
+        if(fp==-1){
+            return a;
+        }
+        l = fp;
+        h = arr.length - 1;
+        while (l <= h) {
+            int mid = l + (h - l) / 2;
+            if (arr[mid] == t) {
+                lp = mid;
+                l = mid + 1;
+            } else if (arr[mid] > t) {
+                h = mid - 1;
+            } else {
 
+            }
+        }
+        a[0]=fp;
+        a[1]=lp;
+       
+        return a;
     }
 }
