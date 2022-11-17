@@ -10,6 +10,7 @@ public class BinarySearch {
     }
     //return the index
     // return -1 if not found
+
     static int BinarySearch(int[] arr,int target){
         int start = 0;
         int end = arr.length - 1;
