@@ -108,7 +108,7 @@
     - [ ] [Packages](https://youtu.be/_Ya6CN13t8k?t=182)
     - [ ] [Access Control](https://youtu.be/W145DXs8fFg)
     - [ ] [Interfaces](https://youtu.be/rgHZa7-Dibg?t=1510)
-    - [ ] [Abstract Classes](https://youtu.be/rgHZa7-Dibg?t=68)
+    - [ ] [com.asad.Abstract Classes](https://youtu.be/rgHZa7-Dibg?t=68)
     - [ ] [Annotations](https://youtu.be/rgHZa7-Dibg?t=3438)
     - [ ] [Singleton Class](https://youtu.be/_Ya6CN13t8k?t=4240) 
     - [ ] [final, finalize, finally](https://youtu.be/46T2wD3IuhM?t=6317)
