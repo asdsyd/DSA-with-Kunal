@@ -103,12 +103,15 @@ System.out.println(Arrays.toString(nameOfArray));
   
 ## Lectures
 - [x] [Complete Git & GitHub Course](https://youtu.be/apGV9Kg7ics)
+
 - [x] [Introduction to Programming](https://youtu.be/wn49bJOYAZM)
     - [x] [Types of languages](https://youtu.be/wn49bJOYAZM?t=171)
     - [x] [Memory management](https://youtu.be/wn49bJOYAZM?t=1488)
+    
 - [x] [Flow of the program](https://youtu.be/lhELGQAV4gg)
     - [x] [Flowcharts](https://youtu.be/lhELGQAV4gg)
     - [x] [Pseudocode](https://youtu.be/lhELGQAV4gg?t=715)
+
 - [x] [Introduction to Java](https://youtu.be/4EP8YzcN0hQ)
     - [x] [Introduction](https://youtu.be/4EP8YzcN0hQ)
     - [x] [How it works](https://youtu.be/4EP8YzcN0hQ?t=93)
@@ -118,14 +121,17 @@ System.out.println(Arrays.toString(nameOfArray));
         - [x] [if-else](https://youtu.be/ldYLYRNaucM?t=88)
         - [x] [loops](https://youtu.be/ldYLYRNaucM?t=440)
         - [x] [Switch statements](https://youtu.be/mA23x39DjbI)
+    
     - [x] [Data-types](https://youtu.be/TAtrPoaJ7gc?t=2800)
     - [x] [Coding best practices](https://youtu.be/waGfV-IoOt8)
+
 - [x] [Functions](https://youtu.be/vvanI8NRlSI)
     - [x] [Introduction](https://youtu.be/vvanI8NRlSI)
     - [x] [Scoping in Java](https://youtu.be/vvanI8NRlSI?t=2801)
     - [x] [Shadowing](https://youtu.be/vvanI8NRlSI?t=3584)
     - [x] [Variable Length Arguments](https://youtu.be/vvanI8NRlSI?t=4013)
     - [x] [Overloading](https://youtu.be/vvanI8NRlSI?t=4327)
+
 - [x] [Arrays](https://youtu.be/n60Dn0UsbEk)
     - [x] [Introduction](https://youtu.be/n60Dn0UsbEk)
     - [x] [Memory management](https://youtu.be/n60Dn0UsbEk?t=632)
@@ -136,12 +142,15 @@ System.out.println(Arrays.toString(nameOfArray));
         - [x] [Binary Search](https://youtu.be/f6UU7V3szVw)
         - [x] [Modified Binary Search](https://youtu.be/f6UU7V3szVw?t=2508)
         - [ ] [Binary Search on 2D Arrays](https://www.youtube.com/watch?v=enI_KyGLYPo)
+    
     - [ ] Sorting
         - [x] [Insertion Sort](https://youtu.be/By_5-RRqVeE)
         - [x] [Selection Sort](https://youtu.be/Nd4SCCIHFWk)
         - [ ] [Bubble Sort](https://youtu.be/F5MZyqRp_IM)
         - [ ] [Cyclic Sort](https://youtu.be/JfinxytTYFQ)
+
 - [ ] [Pattern questions](https://youtu.be/lsOOs5J8ycw)
+
 - [ ] [Strings](https://www.youtube.com/watch?v=zL1DPZ0Ovlo)
     - [ ] [Introduction](https://www.youtube.com/watch?v=zL1DPZ0Ovlo)
     - [ ] [How Strings work](https://youtu.be/zL1DPZ0Ovlo?t=216)
