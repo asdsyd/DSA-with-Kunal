@@ -204,7 +204,7 @@ System.out.println(Arrays.toString(nameOfArray));
     - [x] [Packages](https://youtu.be/_Ya6CN13t8k?t=182)
     - [x] [Access Control](https://youtu.be/W145DXs8fFg)
     - [x] [Interfaces](https://youtu.be/rgHZa7-Dibg?t=1510)
-    - [x] [Abstract Classes](https://youtu.be/rgHZa7-Dibg?t=68)
+    - [x] [com.asad.Abstract Classes](https://youtu.be/rgHZa7-Dibg?t=68)
     - [x] [Annotations](https://youtu.be/rgHZa7-Dibg?t=3438)
     - [x] [Singleton Class](https://youtu.be/_Ya6CN13t8k?t=4240) 
     - [x] [final, finalize, finally](https://youtu.be/46T2wD3IuhM?t=6317)
