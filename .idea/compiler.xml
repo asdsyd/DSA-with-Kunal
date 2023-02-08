@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <excludeFromCompile>
-      <file url="file://$PROJECT_DIR$/src/com/asad/Leetcode34.java" />
-      <file url="file://$PROJECT_DIR$/src/com/asad/MountainArray.java" />
+      <file url="file://$PROJECT_DIR$/src/com/asad/archive/Leetcode34.java" />
+      <file url="file://$PROJECT_DIR$/src/com/asad/archive/MountainArray.java" />
     </excludeFromCompile>
   </component>
 </project>
